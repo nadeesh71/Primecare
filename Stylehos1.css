@@ -116,7 +116,7 @@ input[type="text"], input[type="email"] {
 
 input[type="submit"] {
     padding: 8px;
-    background-color: #4CAF50;
+    background-color: #c389da;
     color: white;
     border: none;
     border-radius: 5px;
@@ -155,7 +155,7 @@ input[type="submit"] {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #9c77bb;
   color: white;
 }
 
@@ -302,7 +302,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #af85c7;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -312,7 +312,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #ab8ad6;
 }
 
 .container {
