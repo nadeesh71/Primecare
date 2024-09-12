@@ -157,7 +157,7 @@ input[type="submit"] {
 .topnav a.active {
   background-color: #9c77bb;
   color: white;
-}
+} 
 
 .topnav .icon {
   display: none;
@@ -386,6 +386,8 @@ input[type=submit]:hover {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
-}
+} 
+
+
 
 
