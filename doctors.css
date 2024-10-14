@@ -19,13 +19,13 @@ img {
 
   }
   div.gallery {
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; 
   }
   
   div.gallery:hover {
     border: 1px solid #777;
   }
-  kufrdesza
+
   div.gallery img {
     width: 100%;
     height: auto;
