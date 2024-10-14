@@ -388,6 +388,10 @@ input[type=submit]:hover {
   font-family: Arial, sans-serif;
 } 
 
+div.a {
+  text-align: right;
+} 
+
 
 
 
