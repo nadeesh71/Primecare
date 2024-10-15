@@ -396,6 +396,20 @@ p {
   font-size: 20px;
 }
 
+/* Make all images responsive */
+#responsive-image {
+  width: 100%;   /* Make the image scale to fit its container */
+  max-width: 60%;  /* Prevent the image from growing beyond its original size */
+  height: auto;  /* Keep the aspect ratio */
+  display: block;  /* Remove bottom space around images */
+  margin: 10px 0;  /* Add some spacing between images */
+}
 
 
+#hospital-map {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
