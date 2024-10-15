@@ -44,29 +44,56 @@
 
 
      <div>
-      <h2>Online Ordering of Medications at PrimeCare Pharmacy
+      <br><br>
 
-Ordering your medicines online at PrimeCare Pharmacy is easy and convenient.
-      </div></h2>
+  <p>Ordering your medicines online at PrimeCare Pharmacy is easy and convOrdering your medicines online at PrimeCare Pharmacy is easy and convenient.</p>
+      </div>
       
+      <div class="pharmacy-form-container">
+        <h2>Buy Medicine from Prime Care Pharmacy</h2>
+        <form action="/submit_medicine_order" method="POST">
+            <div class="form-group">
+                <label for="customerName">Full Name:</label>
+                <input type="text" id="customerName" name="customerName" required>
+            </div>
 
-     <div class="form-container">
-      <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name">
-          <label for="name">Age:</label>
-          <input type="text" id="Age" name="Age">
-          <label for="name">Gender:</label>
-          <input type="text" id="Gender" name="Gender">
-          <label for="name">Medicines:</label>
-          <input type="text" id="Medicines" name="Medicines">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email">
-          <label for="Address">Address:</label>
-          <input type="Address" id="Address" name="Address">
-          <input type="submit" value="Submit">
-      </form>
-  </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="medicine">Select Medicine:</label>
+                <select id="medicine" name="medicine" required>
+                    <option value="paracetamol">Paracetamol</option>
+                    <option value="ibuprofen">Ibuprofen</option>
+                    <option value="antibiotics">Antibiotics</option>
+                    <option value="cough-syrup">Cough Syrup</option>
+                    <option value="antacid">Antacid</option>
+                    <option value="vitamins">Vitamins</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Order Medicine</button>
+            </div>
+        </form>
+    </div>
 
   <br><br>
   <div class="content-container">
