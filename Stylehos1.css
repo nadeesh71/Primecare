@@ -512,3 +512,21 @@ iframe {
   border: 0;
 }
 
+footer {
+  background-color: #093b39;
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
