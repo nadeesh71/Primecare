@@ -391,7 +391,7 @@ input[type=submit]:hover {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;  
 } 
 
 div.a {
@@ -462,10 +462,11 @@ textarea {
   font-size: 16px;
 }
 
-button {
+
+button {   
   width: 100%;
   padding: 12px;
-  background-color: #008CBA;
+  background-color: #be90da;
   
   border: none;
   border-radius: 5px;
@@ -474,7 +475,7 @@ button {
 }
 
 button:hover {
-  background-color: #007bb5;
+  background-color: #aaaaaa;
 }
 
 @media (max-width: 768px) {
@@ -513,10 +514,12 @@ iframe {
 }
 
 footer {
+  
   background-color: #093b39;
   padding: 20px;
   text-align: center;
   color: #000000;
+  
 }
 
 footer a {
@@ -529,4 +532,22 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.delivery-pp{
+  display: grid;
+  grid: auto auto ;
+}
 
+ol {
+ 
+  list-style-position: inside;  /* Ensures numbers are inside the list item */
+  margin: 0 auto;  /* Centers the entire list horizontally */
+  text-align: center;  /* Centers the list item content */
+  padding-left: 0;  /* Removes default padding from left */
+  width: fit-content;  /* Shrinks the list container to fit its content */
+}
+
+ol li {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px 0;  /* Adds vertical spacing between list items */
+}
