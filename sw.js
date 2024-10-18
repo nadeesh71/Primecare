@@ -3,7 +3,7 @@ const CACHE_NAME = 'v1';
 const CACHE_ASSETS = [
     '/Primecare/', // Update this path
     '/Primecare/index.html', // Update this path
-    '/Primecare/styles/Stylehos1.css', // Update this path 
+    '/Primecare/Stylehos1.css', // Update this path 
     '/Primecare/script.js', // Update this path           
     '/Primecare/icons/favicon-32x32.png', // Update this path
     '/Primecare/icons/favicon-16x16.png', // Update this path
