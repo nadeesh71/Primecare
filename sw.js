@@ -6,7 +6,8 @@ const CACHE_ASSETS = [
     '/Primecare/Stylehos1.css', // Update this path 
     '/Primecare/script.js', // Update this path           
     '/Primecare/icons/favicon-32x32.png', // Update this path
-    '/Primecare/icons/favicon-16x16.png', // Update this path
+    '/Primecare/icons/favicon-16x16.png', 
+    '/Primecare/icons/android-chrome-192x192.png',// Update this path
 ];
 
 // Install event - caching the specified assets
