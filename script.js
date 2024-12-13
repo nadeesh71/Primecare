@@ -7,7 +7,7 @@
 //             .catch((error) => {
 //                 console.error('Service Worker registration failed:', error);
 //             });
-//     });
+//     });  
 // }
 
 if ('serviceWorker' in navigator) {

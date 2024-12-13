@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pharmacy</title>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart & Favorites</title>
+  <link rel="stylesheet" href="pharmcy.css">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Primecare Health</title>
 <link rel="stylesheet" href="Stylehos1.css">
+
 <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
@@ -13,135 +19,416 @@
 <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<script src="./script.js" defer></script>
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
-  
 
-  <body>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contactus.html">Contact</a>
+    <a href="services.html">Services</a>
+    <a href="pharmacy.html">pharmacy</a>
+    <a href="paypro.html">Paypro</a>
 
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
 
-    <div class="topnav" id="myTopnav">
-      <a href="index.html" class="active">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="contactus.html">Contact</a>
-      <a href="services.html">Services</a>
-      <a href="pharmacy.html">pharmacy</a>
-      <a href="paypro.html">Paypro</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  
-     <br><br>
+  </div>
+  <br><br>
 
-     <img src="./Images/Prime care (2).png" height="300">
+  <img src="./Images/Prime care (2).png" height="300">
 
-
-
-     <div>
-      <br><br>
-
-  <p>Ordering your medicines online at PrimeCare Pharmacy is easy and convOrdering your medicines online at PrimeCare Pharmacy is easy and convenient.</p>
-      </div>
-      
-      <div class="pharmacy-form-container">
-        <h2>Buy Medicine from Prime Care Pharmacy</h2>
-        <form action="/submit_medicine_order" method="POST">
-            <div class="form-group">
-                <label for="customerName">Full Name:</label>
-                <input type="text" id="customerName" name="customerName" required>
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <div class="form-group">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
-
-            <div class="form-group">
-                <label for="medicine">Select Medicine:</label>
-                <select id="medicine" name="medicine" required>
-                    <option value="paracetamol">Paracetamol</option>
-                    <option value="ibuprofen">Ibuprofen</option>
-                    <option value="antibiotics">Antibiotics</option>
-                    <option value="cough-syrup">Cough Syrup</option>
-                    <option value="antacid">Antacid</option>
-                    <option value="vitamins">Vitamins</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="quantity">Quantity:</label>
-                <input type="number" id="quantity" name="quantity" min="1" required>
-            </div>
-
-            <div class="form-group">
-                <label for="address">Delivery Address:</label>
-                <textarea id="address" name="address" rows="3" required></textarea>
-            </div>
-
-            <div class="form-group">
-                <button type="submit">Order Medicine</button>
-            </div>
-        </form>
-    </div>
 
   <br><br>
-  <div class="content-container">
-    <div class="image-section">
-      <img src="./Images/prime  oharmacy.webp" alt="PrimeCare Pharmacy" class="pharmacy-image">
-    </div>
-    <div class="text-section">
-      <div class="text-box">
-        <p>We at PrimeCare Pharmacy ensure provision of quality healthcare both online and through our conveniently located physical branches.</p>
-      </div>
-    </div>
-  </div>
-  
+
 
   
-  <footer style="background-color: #A8B9A2; padding: 20px; text-align: center;">
-  
-    <!-- About Us Section -->
-    <div>
-      <h3>About Prime Care Health</h3>
-      <p>Providing compassionate, high-quality care with a patient-first approach.</p>
-    </div>
-    
-    <!-- Quick Links Section -->
-    <div>
-      <h3>Quick Links</h3>
-      <a href="#services" style="margin-right: 15px;">Our Services</a>
-      <a href="#pharmacy" style="margin-right: 15px;">Pharmacy</a>
-      <a href="#faq" style="margin-right: 15px;">FAQs</a>
-      <a href="#contact">Contact Us</a>
-    </div>
-    
-    <!-- Contact Info Section -->
-    <div style="margin-top: 20px;">
-      <p>123 Wellness Street, City, Country | +123-456-7890</p>
-    </div>
-    
-    <!-- Copyright -->
-    <div style="margin-top: 10px;">
-      &copy; 2024 Prime Care Health. All rights reserved.
-    </div>
-    
-  </footer>
-  
-    
-   
-  <script src="./main.js"></script>  
+    <h1>Analgesics</h1>
+    <main>
+      <section id="product-list">
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/pra.jpeg" alt="Pain Relief">
+          <h2>Paracetamol</h2>
+          <p>Price: Rs 200</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();"> Add to Favorites </button>
+        </div>
+
+        <div class="product" data-name="Cough Syrup">
+          <img src="./images 2/asprin2.jpeg" alt="Cough Syrup">
+          <h2>Aspirin</h2>
+          <p>Price: Rs 180</p>
+          <label for="quantity-cough">Quantity:</label>
+          <input type="number" id="quantity-cough" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Cough Syrup', 80, 'quantity-cough')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/naproxen.jpg" alt="Pain Relief">
+          <h2>Naproxen</h2>
+          <p>Price: Rs 50</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/dicloc.jpg" alt="Pain Relief">
+          <h2>Diclofena</h2>
+          <p>Price: Rs 500</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/ibuprofen.jpg" alt="Pain Relief">
+          <h2>Ibuprofen</h2>
+          <p>Price: Rs 300</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/tra.jpeg" alt="Pain Relief">
+          <h2>Tramadol</h2>
+          <p>Price: Rs 890</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+      </section>
+
+      <br><br>
       
-  
+
+      <h1>Antibiotics</h1>
+      <section id="product-list">
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/amo.jpeg" alt="Pain Relief">
+          <h2>Amoxicillin</h2>
+          <p>Price: Rs 600</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Cough Syrup">
+          <img src="./images 2/azithromycin.jpg" alt="Cough Syrup">
+          <h2>Azithromycin </h2>
+          <p>Price: Rs 180</p>
+          <label for="quantity-cough">Quantity:</label>
+          <input type="number" id="quantity-cough" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Cough Syrup', 80, 'quantity-cough')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/Ciprofloxacin-500-768x768.png" alt="Pain Relief">
+          <h2>Ciprofloxacin</h2>
+          <p>Price: Rs 570</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/Alldox_Carelink.jpg" alt="Pain Relief">
+          <h2> Doxycycline</h2>
+          <p>Price: Rs 600</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/cephalexin-3.jpg" alt="Pain Relief">
+          <h2> Cephalexin</h2>
+          <p>Price: Rs 1400</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/met.webp" alt="Pain Relief">
+          <h2> Metronidazole</h2>
+          <p>Price: Rs 890</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+      </section>
+
+      <br><br>
+
+      <h1>Antidepressants </h1>
+
+
+      <section id="product-list">
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/prozac.png" alt="Pain Relief">
+          <h2>Fluoxetine (Prozac)</h2>
+          <p>Price: Rs 1000</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Cough Syrup">
+          <img src="./images 2/zoloft.jpeg" alt="Cough Syrup">
+          <h2>Sertraline (Zoloft)</h2>
+          <p>Price: Rs 180</p>
+          <label for="quantity-cough">Quantity:</label>
+          <input type="number" id="quantity-cough" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Cough Syrup', 80, 'quantity-cough')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/esci.jpg" alt="Pain Relief">
+          <h2>Escitalopram (Lexapro)</h2>
+          <p>Price: Rs 570</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/venlafaxine-effexor-xr.webp" alt="Pain Relief">
+          <h2>Venlafaxine (Effexor)</h2>
+          <p>Price: Rs 600</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/amitriptyline-25-mg-tablets.jpg" alt="Pain Relief">
+          <h2> Amitriptyline</h2>
+          <p>Price: Rs 1570</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/well2.jpeg" alt="Pain Relief">
+          <h2> Bupropion (Wellbutri)</h2>
+          <p>Price: Rs 890</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+      </section>
+
+      <br><br>
+
+
+      <h1>Antihistamines</h1>
+
+      <section id="product-list">
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/ben.webp" alt="Pain Relief">
+          <h2>Diphenhydramine</h2>
+          <p>Price: Rs 1300</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Cough Syrup">
+          <img src="./images 2/zyr.jpeg" alt="Cough Syrup">
+          <h2>Cetirizine (Zyrtec)</h2>
+          <p>Price: Rs 1800</p>
+          <label for="quantity-cough">Quantity:</label>
+          <input type="number" id="quantity-cough" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Cough Syrup', 80, 'quantity-cough')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/alle.webp" alt="Pain Relief">
+          <h2> Fexofenadine (Allegra)</h2>
+          <p>Price: Rs 570</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/levno.jpg" alt="Pain Relief">
+          <h2>: Allerief</h2>
+          <p>Price: Rs 600</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <br><br>
+      </section>
+
+      <br><br>
+
+
+
+      <h1>Antihypertensives</h1>
+      <br><br>
+
+
+
+      <section id="product-list">
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/nav.jpeg" alt="Pain Relief">
+          <h2>Amlodipine (Norvasc)</h2>
+          <p>Price: Rs 1300</p>          
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Cough Syrup">
+          <img src="./images 2/prin.jpg" alt="Cough Syrup">
+          <h2>Lisinopril</h2>
+          <p>Price: Rs 1800</p>
+          <label for="quantity-cough">Quantity:</label>
+          <input type="number" id="quantity-cough" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Cough Syrup', 80, 'quantity-cough')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/metopro.jpeg" alt="Pain Relief">
+          <h2>Metoprolol</h2>
+          <p>Price: Rs 570</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/hy.jpeg" alt="Pain Relief">
+          <h2> Hydrochlorot</h2>
+          <p>Price: Rs 600</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="quantity-pain" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('Pain Relief', 50, 'quantity-pain')">Add to Cart</button>
+          <button class="add-to-favorites"onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/clo.jpeg" alt="Pain Relief">
+          <h2> Clonidine</h2>
+          <p>Price: Rs 1700</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="11" min="1" value="1">
+          <button class="add-to-cart" onclick="addToCart('medic 2', 100, '11')">Add to Cart</button>
+          <button class="add-to-favorites" onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+        <div class="product" data-name="Pain Relief">
+          <img src="./images 2/cosart.webp" alt="Pain Relief">
+          <h2> Losartan</h2>
+          <p>Price: Rs 890</p>
+          <label for="quantity-pain">Quantity:</label>
+          <input type="number" id="12" min="1" value="1">
+          <button class="" onclick="addToCart('medi 1', 50, '12')">Add to Cart</button>
+          <button class="add-to-favorites" onclick="addToFavourite();">Add to Favorites</button>
+        </div>
+
+
+
+      </section>
+
+      <!-- <div id="cart">
+        <h2>Shopping Cart</h2>
+        <p>Your cart is empty.</p>
+      </div>
+      <button id="pay-now" onclick="redirectToPayment()" style="display:none;">Pay Now</button> -->
+    </main>
+
+
+
+    <div id="message" class="message"></div>
+
+    <!-- Popup Modal -->
+    <!-- <div id="popup-modal" style="display: none;">
+      <div id="popup-content">
+        <span id="close-modal">&times;</span>
+        <p id="popup-message"></p>
+      </div>
+    </div> -->
+    <div id="cart-section">
+      <h3>Your Cart</h3>
+      <table id="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody id="cart-body">
+          <tr>
+            <td colspan="4">Your cart is empty.</td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="pay-now" style="display: none;">Pay Now</button>
+      <div id="message" style="display: none;"></div>
+    </div>
+
+
+    <script src="script04.js"></script>
 </body>
+
+<footer style="background-color: #A8B9A2; padding: 20px; text-align: center;">
+  
+        
+  <div>
+    <h3>About Prime Care Health</h3>
+    <p>Providing compassionate, high-qu     ality care with a patient-first approach.</p>
+  </div>
+  
+  
+  <div>
+    <h3>Quick Links</h3>
+    <a href="#services" style="margin-right: 15px;">Our Services</a>
+    <a href="#pharmacy" style="margin-right: 15px;">Pharmacy</a>
+    <a href="#faq" style="margin-right: 15px;">FAQs</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+  
+  
+  <div style="margin-top: 20px;">
+    <p>123 Wellness Street, City, Country | +123-456-7890</p>
+  </div>
+  
+  
+  <div style="margin-top: 10px;">
+    &copy; 2024 Prime Care Health. All rights reserved.
+  </div>
+  
+</footer>
+
+
+
 </html>

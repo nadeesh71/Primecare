@@ -551,3 +551,8 @@ ol li {
   font-weight: bold;
   margin: 10px 0;  /* Adds vertical spacing between list items */
 }
+
+
+.color{
+  color: blue;
+} 
