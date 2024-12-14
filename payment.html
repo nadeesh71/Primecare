@@ -34,7 +34,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 20px;
         }
-
+ 
         h1 {
             text-align: center;
             color: #444;
@@ -152,9 +152,17 @@
     </div>
 
     <script>
+        // Get the current URL
+const urlParams = new URLSearchParams(window.location.search);
+
+// Extract the 'total' parameter from the URL
+const totalCost = parseFloat(urlParams.get('total'));
+
+
+
         // Display the total cost from localStorage
         document.getElementById("total-cost").innerText = 
-            `Total Cost: Rs ${localStorage.getItem("totalCost") || '0'}`;
+            `Total Cost: Rs ${totalCost || '0'}`;
 
         // Handle payment method change
         const paymentMethodSelect = document.getElementById("payment-method");

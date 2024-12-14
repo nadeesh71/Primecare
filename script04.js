@@ -55,7 +55,7 @@ function updateCartTable() {
     }
 
     let totalCost = 0;
-    console.log(cart)
+    
     cart.forEach((item) => {
 
         totalCost += item.totalPrice;
