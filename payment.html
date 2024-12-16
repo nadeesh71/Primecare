@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment</title>
-
-    <meta charset="UTF-8"> 
+    <title>Payment</title>   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primecare Health</title>
     <link rel="stylesheet" href="Stylehos1.css">
   
     <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
@@ -17,83 +14,9 @@
     <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
 
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-        }
- 
-        h1 {
-            text-align: center;
-            color: #444;
-        }
-
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-
-        input, select {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 16px;
-            background-color: #fdfdfd;
-        }
-
-        input:focus, select:focus {
-            outline: none;
-            border-color: #00bcd4;
-            box-shadow: 0 0 4px rgba(0, 188, 212, 0.4);
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            background-color: #00bcd4;
-            color: #fff;
-            font-size: 16px;
-            font-weight: bold;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-
-        button:hover {
-            background-color: #008c9e;
-        }
-
-        .total-cost {
-            font-size: 18px;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #555;
-        }
-    </style>
+    <link rel="stylesheet" href="payment.css">
+    
 </head>
 <body>
     <div class="topnav" id="myTopnav">
@@ -133,11 +56,15 @@
             <div class="form-group">
                 <label for="payment-method">Payment Method:</label>
                 <select id="payment-method" name="payment-method" required>
+                    <!-- Placeholder option -->
+                    <option value="" disabled selected>Select a payment method</option>
+            
+                    <!-- Other options -->
                     <option value="card">Credit/Debit Card</option>
                     <option value="cod">Cash on Delivery</option>
                 </select>
             </div>
-
+            
             <!-- Card Details Section -->
             <div id="card-details" class="form-group">
                 <label for="card-number">Card Number:</label>

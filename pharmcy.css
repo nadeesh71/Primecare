@@ -17,7 +17,7 @@ main {
   padding: 20px;
 }
 
-#product-list {
+#product-list,.product-list {
   display: flex;
   flex-wrap: wrap;
   gap: 9px;
@@ -140,5 +140,14 @@ button:hover {
 
 
     
-
+    .text {
+      color: #333333; /* Dark gray text */
+      background-color: #ffffff; /* White background */
+  }
+  
+  .highlight {
+      color: #ffffff; /* White text */
+      background-color: #000000; /* Black background */
+  }
+  
 
